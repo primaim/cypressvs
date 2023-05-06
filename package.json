@@ -1,0 +1,15 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_module\\.bin\\cypress run",
+    "runtests":"npm run test --"
+  },
+  "author": "cypress",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.9.0"
+  }
+}
