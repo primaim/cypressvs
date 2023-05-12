@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_module\\.bin\\cypress run",
-    "runtests":"npm run test --"
+    "pretest": "cypress install",
+    "test": "cypress run --headless",
+    "runtests": "npm run test --"
   },
+  "keywords": [],
   "author": "cypress",
   "license": "ISC",
   "dependencies": {
