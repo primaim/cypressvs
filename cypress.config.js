@@ -1,7 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  //chromeWebSecurity: false,
+  chromeWebSecurity: false,
   reporter: 'cypress-mochawesome-reporter', //to generate HTML reports
   e2e: {
     setupNodeEvents(on, config) {
