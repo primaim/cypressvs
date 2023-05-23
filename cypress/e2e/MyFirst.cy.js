@@ -1,4 +1,3 @@
-
 describe('My First Test', () => {
     it('verify title-positive', () => {
        cy.visit("https://opensource-demo.orangehrmlive.com/") // To launch the URL
